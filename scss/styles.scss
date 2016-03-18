@@ -1,3 +1,9 @@
+@import '_vars';
+
+* {
+  font-family: 'Helvetica Neue';
+}
+
 body {
-  background: peachpuff;
+  background: $color_background;
 }
