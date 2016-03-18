@@ -24,11 +24,11 @@ $(document).ready(function() {
 });
 
 
-if (data[i].description === "") {
-  return "<i>No description</i>";
-} else {
-  return data[i].description;
-}
+// if (data[i].description === "") {
+//   return "<i>No description</i>";
+// } else {
+//   return data[i].description;
+// }
 
 $(document).ready(function() {
   $('#time').text(moment());
