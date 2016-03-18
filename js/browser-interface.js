@@ -1,3 +1,13 @@
+var apiKey = require('./../.env').apiKey;
+var getRepos = require('./../js/api-interface').getRepos;
+
 $(document).ready(function() {
-  $('#time').text(moment());
+  $('.getRepos').click(function() {
+    $('.repoList').empty();
+    var username = $('.userInput').val();
+
+    getRepos(username);
+
+  });
+
 });
