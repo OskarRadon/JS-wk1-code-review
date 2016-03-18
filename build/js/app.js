@@ -6,7 +6,7 @@ var apiKey = require('./../.env').apiKey;
 
 $(document).ready(function() {
   $('.getRepos').click(function() {
-
+    $('.repoList').empty();
     var username = $('.userInput').val();
 
     $.get('https://api.github.com/users/' + username + '/repos?access_token=' + apiKey).then(function(data) {
@@ -15,6 +15,8 @@ $(document).ready(function() {
         $('.repoList').append('<li><a href="' + data[i].html_url + '">' + data[i].name + '</li></a>');
       }
 
+    }).fail(function(error) {
+      console.log(error.responseJSON.message);
     });
 
   });
