@@ -6,4 +6,27 @@
 
 body {
   background: $color_background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .search {
+    @extend body;
+    input {
+      font-size: 1em;
+      padding: 5px;
+      width: 200px;
+      outline: none;
+    }
+    button {
+      @extend input;
+      width: 110px;
+      margin-top: 10px;
+      border: none;
+      border-bottom: 3px solid black;
+      &:active {
+        border: none;
+        transform: translateY(3px);
+      }
+    }
+  }
 }
