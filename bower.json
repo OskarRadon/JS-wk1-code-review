@@ -3,7 +3,7 @@
   "description": "",
   "main": "gulpfile.js",
   "authors": [
-    "simon <student@epicodus.com>"
+    "Oskar <oskarradonkimball@gmail.com>"
   ],
   "license": "ISC",
   "moduleType": [],
@@ -16,8 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.1",
-    "bootstrap": "^3.3.6",
-    "moment": "^2.12.0"
+    "jquery": "^2.2.1"
   }
 }
