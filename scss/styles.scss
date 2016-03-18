@@ -10,9 +10,6 @@ body {
   flex-direction: column;
   align-items: center;
   .search {
-    h1 {
-      color: $color_accent;
-    }
     @extend body;
     input {
       font-size: 1em;
@@ -25,26 +22,11 @@ body {
       width: 110px;
       margin-top: 10px;
       border: none;
-      border-bottom: 3px solid darken($color_button, 40%);
-      background: $color_button;
+      border-bottom: 3px solid black;
       &:active {
         border: none;
         transform: translateY(3px);
       }
     }
-  }
-  .results {
-    margin-top: 50px;
-    ul {
-      list-style: none;
-      a {
-        color: $color_accent;
-        text-decoration: none;
-        &:hover {
-          color: $color_button;
-        }
-      }
-    }
-
   }
 }
