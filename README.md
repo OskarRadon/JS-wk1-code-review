@@ -5,7 +5,7 @@
 By **Oskar Radon**
 
 #### Description
-A website where the user can enter a GitHub username into a form and submit it to see names and descriptions of that person's public repositories.
+A website where the user can enter a GitHub username into a form and submit it to see names and descriptions of that person's public repositories. View the site [here](http://oskarradon.github.io/JS-wk1-code-review/).
 
 #### Technologies Used
 Sass, jQuery
